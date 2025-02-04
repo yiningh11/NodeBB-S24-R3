@@ -1,5 +1,6 @@
 'use strict';
 
+const db = require.main.require('./src/database');
 const express = require('express');
 const winston = require('winston');
 
